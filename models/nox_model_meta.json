@@ -1,0 +1,88 @@
+{
+  "features": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP",
+    "TEMP_DROP",
+    "PRESSURE_RATIO",
+    "POWER_PER_EXHAUST_P",
+    "AIR_DENSITY_IDX"
+  ],
+  "sensors": [
+    "AT",
+    "AP",
+    "AH",
+    "AFDP",
+    "GTEP",
+    "TIT",
+    "TAT",
+    "TEY",
+    "CDP"
+  ],
+  "engineered": [
+    "TEMP_DROP",
+    "PRESSURE_RATIO",
+    "POWER_PER_EXHAUST_P",
+    "AIR_DENSITY_IDX"
+  ],
+  "target": "NOX",
+  "sklearn_version": "1.9.1",
+  "test_metrics": {
+    "RMSE": 4.181,
+    "MAE": 2.786,
+    "R2": 0.874
+  },
+  "sensor_ranges": {
+    "AT": [
+      2.72,
+      32.2,
+      17.8
+    ],
+    "AP": [
+      998.03,
+      1029.4,
+      1012.6
+    ],
+    "AH": [
+      40.71,
+      100.0,
+      80.47
+    ],
+    "AFDP": [
+      2.46,
+      6.01,
+      3.94
+    ],
+    "GTEP": [
+      18.52,
+      34.36,
+      25.1
+    ],
+    "TIT": [
+      1035.03,
+      1100.28,
+      1085.9
+    ],
+    "TAT": [
+      525.18,
+      550.42,
+      549.88
+    ],
+    "TEY": [
+      104.02,
+      166.47,
+      133.73
+    ],
+    "CDP": [
+      10.18,
+      14.29,
+      11.96
+    ]
+  }
+}
